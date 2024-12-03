@@ -7,7 +7,14 @@ internal class Program
 
     public class Player
     {
-        public string 
+        public string Name { get; set; };
+        public string Position { get; private set; };
+        public int Score { get; private set; };
+
+        public void Move()
+        {
+            
+        }
     }
 
 
