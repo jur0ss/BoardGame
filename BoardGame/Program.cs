@@ -13,7 +13,7 @@ internal class Program
         
         public string Type { get; private set; }
 
-        public NewPlayer(string name, string type)
+        public Player(string name, string type)
         {
             this.Name = name;
             Score = 0;
@@ -44,7 +44,7 @@ internal class Program
 
     public class Game
     {
-        public 
+        
     }
 
 
