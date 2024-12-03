@@ -13,7 +13,7 @@ internal class Program
         
         public string Type { get; private set; }
 
-        public newPlayer(string name, string type)
+        public NewPlayer(string name, string type)
         {
             this.Name = name;
             Score = 0;
@@ -21,8 +21,8 @@ internal class Program
             this.Type = type;
         }
         
+        
         private Random random = new Random();
-
         public int RollDice()
         {
             return random.Next(1, 7);
@@ -30,8 +30,21 @@ internal class Program
 
         public void Move()
         {
+            int steps = RollDice();
+            Console.WriteLine($"{Name} wyrzucił {steps}");
+            Position += steps;
             
         }
+    }
+
+    public class Board
+    {
+        public int Size = 64;
+    }
+
+    public class Game
+    {
+        public 
     }
 
 
