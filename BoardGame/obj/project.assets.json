@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/jurekg1/.nuget/packages/": {}
+    "C:\\Users\\jurek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jurekg1/RiderProjects/BoardGame/BoardGame/BoardGame.csproj",
+      "projectUniqueName": "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\BoardGame.csproj",
       "projectName": "BoardGame",
-      "projectPath": "/home/jurekg1/RiderProjects/BoardGame/BoardGame/BoardGame.csproj",
-      "packagesPath": "/home/jurekg1/.nuget/packages/",
-      "outputPath": "/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/",
+      "projectPath": "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\BoardGame.csproj",
+      "packagesPath": "C:\\Users\\jurek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jurekg1/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\jurek\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
