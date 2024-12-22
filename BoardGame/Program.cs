@@ -33,6 +33,10 @@ internal class Program
             int steps = RollDice();
             Console.WriteLine($"{Name} wyrzucił {steps}");
             Position += steps;
+            if (Position > 64)
+            {
+                Position = 64;
+            }
             
         }
 
@@ -45,6 +49,19 @@ internal class Program
     public class Board
     {
         public int Size = 64;
+
+        public static string GenerateReward(int position)
+        {
+            Random rand = new Random();
+            if (rand.Next(1, 6) == 1) // 20% szans na nagrodę
+            {
+                return "Nagroda";
+            }
+            else
+            {
+                return "Brak nagrody";
+            }
+        }
     }
 
     public class Game
