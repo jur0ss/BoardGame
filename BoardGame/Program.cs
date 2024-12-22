@@ -35,6 +35,11 @@ internal class Program
             Position += steps;
             
         }
+
+        public void UpdateScore(int points)
+        {
+            Score += points;
+        }
     }
 
     public class Board
