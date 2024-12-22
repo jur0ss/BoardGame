@@ -66,7 +66,8 @@ internal class Program
 
     public class Game
     {
-        
+        public List<Player> Players { get; set; }
+        public Board GameBoard { get; set; }
     }
 
 
