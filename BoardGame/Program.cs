@@ -68,7 +68,26 @@ internal class Program
     {
         public List<Player> Players { get; set; }
         public Board GameBoard { get; set; }
+
+        public Game(List<Player> players)
+        {
+            Players = players;
+            GameBoard = new Board();
+        }
+
+        public void StartGame()
+        {
+            int turn = 0;
+            bool gameRunning = true;
+
+            while (gameRunning)
+            {
+                Player currentPlayer = Players[turn % Players.Count];
+            }
+        }
     }
+    
+    
 
 
 
