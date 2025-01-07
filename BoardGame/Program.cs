@@ -85,6 +85,8 @@ internal class Program
                 Player currentPlayer = Players[turn % Players.Count];
             }
         }
+        
+        public void CheckReward()
     }
     
     
