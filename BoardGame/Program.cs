@@ -85,8 +85,15 @@ internal class Program
                 Player currentPlayer = Players[turn % Players.Count];
             }
         }
-        
-        public void CheckReward()
+
+        public void CheckReward(Player player)
+        {
+            string reward = Board.GenerateReward(player.Position);
+            if (reward == "Nagroda")
+            {
+                int points = new Random().Next(10, 100);
+            }
+        }
     }
     
     
