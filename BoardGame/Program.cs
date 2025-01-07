@@ -92,6 +92,8 @@ internal class Program
             if (reward == "Nagroda")
             {
                 int points = new Random().Next(10, 100);
+                player.UpdateScore(points);
+                Console.WriteLine($"Player {player.Name} zdobył {points} bonusowych punktów");
             }
         }
     }
