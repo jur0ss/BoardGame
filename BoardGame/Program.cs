@@ -160,13 +160,13 @@ internal class Program
 
 
 public static void Main(string[] args)
+{
+    var players = new List<Player>
     {
-        var players = new List<Player>();
-        {
-            new Player("Jurek", new Warrior());
-            new Player("Michał", new Wizard());
-            new Player("Igor", new Healer());
-        }
+        new Player("Jurek", new Warrior()),
+        new Player("Michał", new Wizard()),
+        new Player("Igor", new Healer()),
+    };
 
         var game = new Game(players);
         game.StartGame();
