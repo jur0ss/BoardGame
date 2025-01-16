@@ -1,0 +1,15 @@
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/bin/Debug/net8.0/BoardGame
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/bin/Debug/net8.0/BoardGame.deps.json
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/bin/Debug/net8.0/BoardGame.runtimeconfig.json
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/bin/Debug/net8.0/BoardGame.dll
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/bin/Debug/net8.0/BoardGame.pdb
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/BoardGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/BoardGame.AssemblyInfoInputs.cache
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/BoardGame.AssemblyInfo.cs
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/BoardGame.csproj.CoreCompileInputs.cache
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/BoardGame.sourcelink.json
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/BoardGame.dll
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/refint/BoardGame.dll
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/BoardGame.pdb
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/BoardGame.genruntimeconfig.cache
+/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/Debug/net8.0/ref/BoardGame.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\BoardGame.csproj": {}
+    "/home/jurekg1/RiderProjects/BoardGame/BoardGame/BoardGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\BoardGame.csproj": {
+    "/home/jurekg1/RiderProjects/BoardGame/BoardGame/BoardGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\BoardGame.csproj",
+        "projectUniqueName": "/home/jurekg1/RiderProjects/BoardGame/BoardGame/BoardGame.csproj",
         "projectName": "BoardGame",
-        "projectPath": "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\BoardGame.csproj",
-        "packagesPath": "C:\\Users\\jurek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\obj\\",
+        "projectPath": "/home/jurekg1/RiderProjects/BoardGame/BoardGame/BoardGame.csproj",
+        "packagesPath": "/home/jurekg1/.nuget/packages/",
+        "outputPath": "/home/jurekg1/RiderProjects/BoardGame/BoardGame/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jurek\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/jurekg1/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,7 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
@@ -39,6 +40,9 @@
           "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
+=======
+        }
+>>>>>>> origin/master
       },
       "frameworks": {
         "net8.0": {
@@ -77,7 +81,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Users\\jurek\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
+>>>>>>> origin/master
         }
       }
     }
