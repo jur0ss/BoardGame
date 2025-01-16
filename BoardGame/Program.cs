@@ -75,6 +75,11 @@ internal class Program
         {
             Score += points;
         }
+
+        public void PerformSpecialAction()
+        {
+            Type.PerformSpecialAction(this);
+        }
     }
 
     public class Board
@@ -118,7 +123,24 @@ internal class Program
                 
                 currentPlayer.Move();
                 WriteLine($"{currentPlayer.Name} znajduje się teraz na pozycji {currentPlayer.Position}");
+                
+                CheckReward(currentPlayer);
+
+                if (currentPlayer.Position % 4 == 0) // Jeśli pole jest podzielne przez 4, to jest topole specjalne
+                {
+                    WriteLine($"{currentPlayer.Name} trafił na pole specjalne");
+                    currentPlayer.PerformSpecialAction();
+                }
+
+                if (currentPlayer.Position >= GameBoard.Size)
+                {
+                    WriteLine($"{currentPlayer.Name} dotarł do końca planszy i wygrał !");
+                    gameRunning = false;
+                }
+
+                turn++;
             }
+
         }
 
         public void CheckReward(Player player)
