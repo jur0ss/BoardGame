@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "CqG8Z/ZNk3A=",
+  "dgSpecHash": "mtJJLc61zJw=",
   "success": true,
   "projectFilePath": "C:\\Users\\jurek\\RiderProjects\\BoardGame\\BoardGame\\BoardGame.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jurek\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\jurek\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\jurek\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\jurek\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

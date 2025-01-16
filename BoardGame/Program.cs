@@ -5,6 +5,10 @@ using static System.Console;
 internal class Program
 {
 
+    public interface PlayerType
+    {
+        void PerformSpecialAction(Player player);
+    }
     public class Player
     {
         public string Name { get; set; }
