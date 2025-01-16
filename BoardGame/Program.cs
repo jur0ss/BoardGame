@@ -9,6 +9,33 @@ internal class Program
     {
         void PerformSpecialAction(Player player);
     }
+
+    public class Warrior : PlayerType
+    {
+        public void PerformSpecialAction(Player player)
+        {
+            WriteLine($"{player.Name} używa specjalnej siły wojownika i zdobywa dodatkowe punkty!");
+            player.UpdateScore(10);
+        }
+    }
+
+    public class Wizard : PlayerType
+    {
+        public void PerformSpecialAction(Player player)
+        {
+            WriteLine($"{player.Name} rzuca zaklęcie i zyskuje dodatkowy ruch!");
+            player.Move();
+        }
+    }
+
+    public class Healer : PlayerType
+    {
+        public void PerformSpecialAction(Player player)
+        {
+            WriteLine($"{player.Name} leczy towarzyszy i zdobywa punkty za wsparcie");
+            player.UpdateScore(5);
+        }
+    }
     public class Player
     {
         public string Name { get; set; }
