@@ -42,9 +42,9 @@ internal class Program
         public int Position { get; private set; }
         public int Score { get; private set; }
         
-        public string Type { get; private set; }
+        public PlayerType Type { get; private set; }
 
-        public Player(string name, string type)
+        public Player(string name, PlayerType type)
         {
             this.Name = name;
             Score = 0;
