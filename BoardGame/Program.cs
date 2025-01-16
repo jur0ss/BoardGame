@@ -114,6 +114,10 @@ internal class Program
             while (gameRunning)
             {
                 Player currentPlayer = Players[turn % Players.Count];
+                WriteLine($"Tura gracza: {currentPlayer.Name}");
+                
+                currentPlayer.Move();
+                WriteLine($"{currentPlayer.Name} znajduje się teraz na pozycji {currentPlayer.Position}");
             }
         }
 
